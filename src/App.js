@@ -1,13 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from './Card';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Card
+          title="Card Title"
+          image="https://vancouver.ca/images/cov/feature/corp-plan-landing.jpg"
+          price={30}
+        />
         <p>
-          Edit <code>src/App.js</code> and save to reload.<br />
           I'm learning react
         </p>
         <a
